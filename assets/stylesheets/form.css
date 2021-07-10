@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+
+.form-group__input {
+  display: block;
+  width: 100%;
+  font-size: 12pt;
+  line-height: 28pt;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 24pt;
+  border: none;
+  min-width: 250px;
+  padding-left: 5px;
+  outline: none;
+  color: black !important;
+}
+
+.form-group__checkbox {
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 28pt;
+  margin-bottom: 8pt;
+  font-size: 12pt;
+  font-weight: 200;
+  /* color: grey; */
+}
+
+.container input:checked .checkmark .checkbox .checkbox-black {
+  background-color: black !important;
+}
+
+label {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+::selection {
+  background: #ffc8ff;
+}
+
+.form {
+  padding: 5%;
+  min-width: none;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.form-group__label {
+  display: block;
+}
+
+.form-group__input {
+  display: block;
+  width: 100%;
+}
+
+.form-group__textbox {
+  display: block;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.title-font-style {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 14pt;
+  /* border-bottom: 3px solid black; */
+  margin-bottom: 24pt;
+  line-height: 28pt;
+}
+
+.container-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
