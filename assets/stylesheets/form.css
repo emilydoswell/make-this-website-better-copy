@@ -16,7 +16,8 @@
 .form-group__checkbox {
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 28pt;
-  margin-bottom: 8pt;
+  margin-bottom: 24pt;
+  margin-right: 12px;
   font-size: 12pt;
   font-weight: 200;
 }
@@ -52,16 +53,17 @@ label {
   height: 120px;
   margin-bottom: 20px;
   font-size: 12px;
+  border-style: none;
 }
 
 .title-font-style {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 500;
   color: black;
-  font-size: 14pt;
-  /* border-bottom: 3px solid black; */
+  font-size: 12pt;
   margin-bottom: 8pt;
   line-height: 28pt;
+  margin-block-start: 0em;
 }
 
 .container-checkbox {
